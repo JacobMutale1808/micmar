@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Micmar UI Upgrade 🏪
 
-## Getting Started
+## Welcome to the Micmar UI repo
 
-First, run the development server:
+Here are the steps to run this webapp:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure your machine has the following :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [WSL](https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command)
+- [Docker](https://www.docker.com/)
+- [git](https://git-scm.com/downloads)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation guide
 
-## Learn More
+After you install the perquisites. Proceed with the following steps:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1) Clone the repo using te following command `git clone https://github.com/JacobMutale1808/micmar.git`
+2) Open your terminal and navigate to `micmar`.
+3) In the micmar directory run the following command `docker build -t micmar:developement .`.
+4) When the command finishes running run the following command in your terminal `docker run -p 3000:3000 micmar:developement`
+5) Open your browser and navigate to [http://localhost:3000/](http://localhost:3000/)

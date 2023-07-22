@@ -16,8 +16,8 @@ module.exports = {
       'text-primary':'#000000',
       'text-secondary':'#FFFFFF'   
     },
-    boxShadow:{
-      'logo':'0px 4px 4px 0px rgba(0,0,0,0.25)'
+    dropShadow:{
+      'logo':'0px 4px 4px rgba(0,0,0,0.25)'
     },
     extend: {
       backgroundImage: {

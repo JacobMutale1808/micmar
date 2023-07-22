@@ -2,12 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
 import MapIcon from '@/public/icons/map.svg'
 import InfoIcon from '@/public/icons/info-icon.svg'
 import CartIcon from '@/public/icons/cart-icon.svg'
 import HomeIcon from '@/public/icons/mobile-icon.png'
+
 import PopOverMenu from './PopOverMenu'
+import SearchBar from './SearchBar'
 
 
 
@@ -48,11 +49,10 @@ const MobileMenuItems = function () {
                     />
                 </Link>
             </div>
-            <div>
-
-            </div>
+            <SearchBar />
         </div>
     );
 }
 
 export default MobileMenuItems
+

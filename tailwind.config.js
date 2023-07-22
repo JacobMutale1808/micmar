@@ -23,6 +23,10 @@ module.exports = {
       backgroundImage: {
         'home-logo':'url("/icons/mobile-icon.png")'
       },
+      borderRadius: {
+        'mobile-search':'20px',
+        'mobile-search-button': '0px, 20px, 20px, 0px'
+      }
     },
   },
   plugins: [],

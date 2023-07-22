@@ -26,6 +26,10 @@ module.exports = {
       borderRadius: {
         'mobile-search':'20px',
         'mobile-search-button': '0px 20px 20px 0px'
+      },
+      fontSize:{
+        'mobile-h1': '80px',
+        'mobile-p': '24px'
       }
     },
   },

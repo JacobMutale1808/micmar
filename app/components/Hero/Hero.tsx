@@ -1,7 +1,7 @@
-const Hero = function Hero ()  {
+const Hero = function  ()  {
     return (
         <div>
-            
+
         </div>
     );
 }

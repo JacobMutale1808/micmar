@@ -2,25 +2,21 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import HamburgerMenu from '../../../public/icons/burger-nav.svg'
+
 import MapIcon from '../../../public/icons/map.svg'
 import InfoIcon from '../../../public/icons/info-icon.svg'
 import CartIcon from '../../../public/icons/cart-icon.svg'
 import HomeIcon from '../../../public/icons/mobile-icon.png'
+import PopOverMenu from './PopOverMenu'
+
 
 
 const MobileMenuItems = function () {
     return (
-        <div>
+        <div className='flex flex-col'>
             <div className='px-[34px] pt-[46px] flex items-center'>
-                <button className='mr-[41px]'>
-                    <Image
-                        width={40}
-                        height={40}
-                        src={HamburgerMenu}
-                        alt="Hamburger menu" />
-                </button>
-                <Link href='/' className='mr-[35px]'>
+                <PopOverMenu />
+                <Link href='/Map' className='mr-[35px]'>
                     <Image
                         width={40}
                         height={40}
@@ -35,7 +31,7 @@ const MobileMenuItems = function () {
                         alt="Home icon"
                         className='shadow-logo' />
                 </Link>
-                <Link href='/' className='mr-[36px]'>
+                <Link href='/info' className='mr-[36px]'>
                     <Image
                         width={40}
                         height={40}
@@ -51,6 +47,9 @@ const MobileMenuItems = function () {
                         alt="Cart icon"
                     />
                 </Link>
+            </div>
+            <div>
+
             </div>
         </div>
     );

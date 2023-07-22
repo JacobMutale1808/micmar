@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MobileMenuItems from './MobileMenuItems';
+import MobileMenuItems from './mobile/MobileMenuItems';
 
 const NavBar = () => {
     return (

@@ -29,6 +29,7 @@ module.exports = {
       },
       fontSize:{
         'mobile-h1': '80px',
+        'mobile-h2':'32px',
         'mobile-p': '24px'
       }
     },

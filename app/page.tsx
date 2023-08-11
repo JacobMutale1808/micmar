@@ -1,6 +1,7 @@
 import CallToAction from "./components/CallToAction/CallToAction";
 import CategoryGrid from "./components/Catergory/CategoryGrid";
 import Hero from "./components/Hero/Hero";
+import Promotions from "./components/Promotions/Promotions";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <CallToAction />
       <CategoryGrid/>
+      <Promotions/>
     </main>
   )
 }

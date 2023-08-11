@@ -1,0 +1,40 @@
+{
+    "Images": [
+        {
+            "key": "1",
+            "URI": "/images/categories/cadac-bbq-1.png",
+            "content": "Braai & Picnic Equipment",
+            "link":"/Category/"
+        },
+        {
+            "key": "2",
+            "URI": "/images/categories/kitchen-1.png",
+            "content": "Kitchen Mixers",
+            "link":"/Category/"
+        },
+        {
+            "key": "3",
+            "URI": "/images/categories/irrigation-1.png",
+            "content": "Watering & Irrigation",
+            "link":"/Category/"
+        },
+        {
+            "key": "4",
+            "URI": "/images/categories/carcare-1.png",
+            "content": "Car Care",
+            "link":"/Category/"
+        },
+        {
+            "key": "5",
+            "URI": "/images/categories/machinery-1.png",
+            "content": "Machinery",
+            "link":"/Category/"
+        },
+        {
+            "key": "6",
+            "URI": "/images/categories/gassessentials-1.png",
+            "content": "Gas Essentials",
+            "link":"/Category/"
+        }
+    ]
+}

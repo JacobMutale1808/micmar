@@ -14,10 +14,12 @@ module.exports = {
       'accent-primary':'#4F80C1',
       'accent-secondary':'#E54C3E',
       'text-primary':'#000000',
-      'text-secondary':'#FFFFFF'   
+      'text-secondary':'#FFFFFF',
+      'overlay': '#0000004D'   
     },
     dropShadow:{
-      'logo':'0px 4px 4px rgba(0,0,0,0.25)'
+      'logo':'0px 4px 4px rgba(0,0,0,0.25)',
+      'text':'0px 4px 4px rgba(0, 0, 0, 0.25)'
     },
     extend: {
       backgroundImage: {
@@ -30,6 +32,7 @@ module.exports = {
       fontSize:{
         'mobile-h1': '80px',
         'mobile-h2':'32px',
+        'mobile-h3': '22px',
         'mobile-p': '24px'
       }
     },

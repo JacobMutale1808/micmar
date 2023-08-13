@@ -1,3 +1,5 @@
+import ProductCard from "../ProductCard";
+
 const MostPopular = () => {
     //TODO: Create URL
     return (
@@ -7,7 +9,9 @@ const MostPopular = () => {
                     Most popular this week
                 </h2>
             </div>
-            
+            <div>
+                <ProductCard />
+            </div>
         </div>
     )
 }
